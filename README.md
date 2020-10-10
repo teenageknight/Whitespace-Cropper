@@ -1,2 +1,2 @@
 # Whitespace-Cropper
-Crops white space around a scanned JPEG photo using PIL.
+Crops white space around a scanned JPEG photo using PIL. My mom and I were trying to scan in old photographs, but when you scanned them in, it scanned the photos as a full page and you had to go in and crop each image individually. I used PIL to give me an array of pixels and found the location in the image where on average the pixels stopped being white pixels (signifiying the image started) and cropped it. This worked for horizonatal and vertical images. 
